@@ -23,6 +23,19 @@
         <!--        <h1>${pageScope.x}</h1>-->
         <!--        parameter accessing -->
         <!--<h1>${param.name}</h1>-->
-        
+
+        <!--to get name-->
+        <!--<h1>${cookie.JSESSIONID.name}</h1>-->
+        <!--to get value-->
+        <!--<h1>${cookie.JSESSIONID.value}</h1>-->
+        <!--to get session max age-->
+        <!--<h1>${cookie.JSESSIONID.getMaxAge()}</h1>-->
+        <!--to get multiple parameters values-->
+        <!--<h1>${paramValues.name}</h1>-->
+
+        <!--get data from request scope-->
+        <!--<h1>${requestScope.user.id}</h1>-->
+        <!--<h1>${requestScope.user.name}</h1>-->
+        <!--<h1>${requestScope.user.mobile}</h1>-->
     </body>
 </html>

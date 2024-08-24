@@ -8,6 +8,10 @@
         <servlet-name>Param</servlet-name>
         <servlet-class>controller.Param</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>Attributes</servlet-name>
+        <servlet-class>controller.Attributes</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>X</servlet-name>
         <url-pattern>/X</url-pattern>
@@ -15,6 +19,10 @@
     <servlet-mapping>
         <servlet-name>Param</servlet-name>
         <url-pattern>/Param</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Attributes</servlet-name>
+        <url-pattern>/Attributes</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
