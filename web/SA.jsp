@@ -15,6 +15,8 @@
         <h1>Hello World!</h1>
         <!--forward tag-->
         <%--<jsp:forward page="EL.jsp"/>--%>
+        <!--include-->
+        <%--<jsp:include page="X"/>--%>
         
     </body>
 </html>
