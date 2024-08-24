@@ -12,7 +12,17 @@ public class X extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        System.out.println("hello");
+        //request scop 
+        req.setAttribute("x", "100");
+        //session
+        req.getSession().setAttribute("y", "100");        
+        //servletContext
+        req.getServletContext().setAttribute("z", "100");
+        
+        //dispatch the request
+        req.getRequestDispatcher("index.jsp").forward(req, resp);
+        
+        
     }
 
     
