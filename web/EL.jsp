@@ -15,11 +15,11 @@
         <%
             pageContext.setAttribute("x", "10");
         %>
-        //Using scriplet
+<!--        Using scriplet-->
         <h1><% out.write(pageContext.getAttribute("x").toString());%></h1>
-        //using expression 
+<!--        using expression -->
         <h1><%= pageContext.getAttribute("x").toString()%></h1>
-        //using EL
-        <h1>${pageScope.x}</h1>``````````````````````````````
+<!--        using EL-->
+        <h1>${pageScope.x}</h1>
     </body>
 </html>
