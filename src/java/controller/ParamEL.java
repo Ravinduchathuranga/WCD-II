@@ -15,7 +15,7 @@ import javax.servlet.http.HttpServletResponse;
  *
  * @author ravinduchathuranga
  */
-public class Param extends HttpServlet {
+public class ParamEL extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {

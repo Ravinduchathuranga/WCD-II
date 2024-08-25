@@ -1,12 +1,12 @@
 package model;
 
-public class User {
+public class UserEL {
 
     private int id;
     private String name;
     private String mobile;
 
-    public User(int id, String name, String mobile) {
+    public UserEL(int id, String name, String mobile) {
         this.id = id;
         this.name = name;
         this.mobile = mobile;

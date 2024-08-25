@@ -12,8 +12,8 @@
         <title>JSP Page</title>
     </head>
     <body>        
-        ${requestScope.x}
-        ${sessionScope.y}
-        ${applicationScope.z}
+        <%=request.getParameter("x")%>
+
+
     </body>
 </html>
