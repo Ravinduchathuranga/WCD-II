@@ -1,6 +1,6 @@
 <%-- 
-    Document   : index
-    Created on : Aug 13, 2024, 1:54:09 PM
+    Document   : Derectives
+    Created on : Aug 25, 2024, 8:59:11 AM
     Author     : ravinduchathuranga
 --%>
 
@@ -11,7 +11,10 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>JSP Page</title>
     </head>
-    <body>        
-        <h1>Hello index</h1>
+    <body>
+        <h1>Hello Directives!</h1>
+        <%@include file="index.jsp" %>
+
+        <%@page isELIgnored="true"%>
     </body>
 </html>
