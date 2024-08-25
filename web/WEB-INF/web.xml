@@ -2,15 +2,19 @@
 <web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
     <servlet>
         <servlet-name>X</servlet-name>
-        <servlet-class>controller.X</servlet-class>
+        <servlet-class>controller.XEL</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>Param</servlet-name>
-        <servlet-class>controller.Param</servlet-class>
+        <servlet-class>controller.ParamEL</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>Attributes</servlet-name>
-        <servlet-class>controller.Attributes</servlet-class>
+        <servlet-class>controller.AttributesEL</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>XSA</servlet-name>
+        <servlet-class>controller.XSA</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>X</servlet-name>
@@ -23,6 +27,10 @@
     <servlet-mapping>
         <servlet-name>Attributes</servlet-name>
         <url-pattern>/Attributes</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>XSA</servlet-name>
+        <url-pattern>/XSA</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

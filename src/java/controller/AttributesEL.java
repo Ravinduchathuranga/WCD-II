@@ -11,17 +11,17 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import model.User;
+import model.UserEL;
 
 /**
  *
  * @author ravinduchathuranga
  */
-public class Attributes extends HttpServlet {
+public class AttributesEL extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-//        User u = new User();
+//        UserEL u = new UserEL();
 //        u.setId(1);
 //        u.setName("ravindu");
 //        u.setMobile("0714191871");
@@ -29,9 +29,9 @@ public class Attributes extends HttpServlet {
 //        req.setAttribute("user", u);
 //        req.getRequestDispatcher("EL.jsp").forward(req, resp);
 
-        ArrayList<User> userList = new ArrayList<User>();
-        User user1 = new User(1, "ravindu", "0714191871");
-        User user2 = new User(2, "chathuranga", "0714191870");
+        ArrayList<UserEL> userList = new ArrayList<UserEL>();
+        UserEL user1 = new UserEL(1, "ravindu", "0714191871");
+        UserEL user2 = new UserEL(2, "chathuranga", "0714191870");
 
         userList.add(user1);
         userList.add(user2);
