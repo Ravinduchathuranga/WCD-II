@@ -12,8 +12,8 @@
         <title>JSP Page</title>
     </head>
     <body>        
-        <jsp:forward page="signIn.jsp">
-            <jsp:param name="ravindu" value="20"/>
-        </jsp:forward>
+        ${requestScope.x}
+        ${sessionScope.y}
+        ${applicationScope.z}
     </body>
 </html>
