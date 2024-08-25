@@ -45,5 +45,8 @@
         <!--<h1>${requestScope.userList[1].id}</h1>-->
         <!--<h1>${requestScope.userList[1].name}</h1>-->
         <!--<h1>${requestScope.userList[1].mobile}</h1>-->
+
+        <!--arithmatic check the note--> 
+        <h1>${requestScope.x+20}</h1>
     </body>
 </html>
