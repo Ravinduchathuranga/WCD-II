@@ -37,5 +37,13 @@
         <!--<h1>${requestScope.user.id}</h1>-->
         <!--<h1>${requestScope.user.name}</h1>-->
         <!--<h1>${requestScope.user.mobile}</h1>-->
+
+        <!--get data using list-->
+        <!--<h1>${requestScope.userList[0].id}</h1>-->
+        <!--<h1>${requestScope.userList[0].name}</h1>-->
+        <!--<h1>${requestScope.userList[0].mobile}</h1>-->
+        <!--<h1>${requestScope.userList[1].id}</h1>-->
+        <!--<h1>${requestScope.userList[1].name}</h1>-->
+        <!--<h1>${requestScope.userList[1].mobile}</h1>-->
     </body>
 </html>
