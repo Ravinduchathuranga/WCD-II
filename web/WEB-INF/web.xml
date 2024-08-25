@@ -16,6 +16,18 @@
         <servlet-name>XSA</servlet-name>
         <servlet-class>controller.XSA</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>UsersTag</servlet-name>
+        <servlet-class>model.UsersTag</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Taglibs</servlet-name>
+        <servlet-class>controller.Taglibs</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>FilterClass</servlet-name>
+        <servlet-class>controller.FilterClass</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>X</servlet-name>
         <url-pattern>/X</url-pattern>
@@ -31,6 +43,18 @@
     <servlet-mapping>
         <servlet-name>XSA</servlet-name>
         <url-pattern>/XSA</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>UsersTag</servlet-name>
+        <url-pattern>/UsersTag</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Taglibs</servlet-name>
+        <url-pattern>/Taglibs</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>FilterClass</servlet-name>
+        <url-pattern>/FilterClass</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

@@ -15,13 +15,10 @@ import javax.servlet.http.HttpServletResponse;
  *
  * @author ravinduchathuranga
  */
-public class XSA extends HttpServlet {
+public class Taglibs extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        
-        
-        
         
     }
 
